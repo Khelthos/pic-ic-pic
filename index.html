@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Picture in Picture</title>
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
       href="https://www.google.com/s2/u/0/favicons?domain=jacinto.design"
@@ -16,9 +15,18 @@
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Video -->
+    <video id="video" controls height="360" width="640" hidden></video>
+    <!-- Button -->
+    <div class="button-container">
+      <button id="button">START</button>
+    </div>
     <!-- script -->
     <script src="script.js"></script>
+    <script src="sweetalert2.all.min.js"></script>
   </body>
 </html>
